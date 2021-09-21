@@ -1,0 +1,55 @@
+body {
+    justify-content: center; 
+    text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: green;
+    font-size: 50px;
+    padding: 1rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    column-count: 3;
+    column-gap: 0px;
+}
+
+.el {
+    padding: 1rem;
+    border: 4px solid black;
+    width: 200px;
+    height: 100px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.row1 {
+    border-top-color: transparent;
+}
+
+.col1 {
+    border-left-color: transparent;
+}
+
+.row3 {
+    border-bottom-color: transparent;
+}
+
+.col3 {
+    border-right-color: transparent;
+}
