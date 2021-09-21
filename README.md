@@ -1,3 +1,3 @@
-#Tic-Tac-Toe GAME
+# Tic-Tac-Toe GAME
 
 Simple tic-tac-toe game in JavaScript
