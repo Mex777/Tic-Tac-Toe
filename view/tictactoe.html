@@ -4,21 +4,22 @@
     <meta charset="utf-8">
     <title> Tic-Tac-Toe </title>
     <link rel="stylesheet" href="style.css">
+    <script src="../controller/tictactoe.js"></script>
   </head>
 
   <body>
       <h1 id="turn">Player1's turn</h1>
       <div class="container">
         <div class="grid">
-          <div class="el row1 col1 center" id=11></div>
-          <div class="el row2 col1 center" id=21></div>
-          <div class="el row3 col1 center" id=31></div>
-          <div class="el row1 col2 center" id=12></div>
-          <div class="el row2 col2 center" id=22></div>
-          <div class="el row3 col2 center" id=32></div>
-          <div class="el row1 col3 center" id=13></div>
-          <div class="el row2 col3 center" id=23></div>
-          <div class="el row3 col3 center" id=33></div>
+          <div class="el row1 col1 center" id="11" onclick="move(id)"></div>
+          <div class="el row2 col1 center" id="21" onclick="move(id)"></div>
+          <div class="el row3 col1 center" id="31" onclick="move(id)"></div>
+          <div class="el row1 col2 center" id="12" onclick="move(id)"></div>
+          <div class="el row2 col2 center" id="22" onclick="move(id)"></div>
+          <div class="el row3 col2 center" id="32" onclick="move(id)"></div>
+          <div class="el row1 col3 center" id="13" onclick="move(id)"></div>
+          <div class="el row2 col3 center" id="23" onclick="move(id)"></div>
+          <div class="el row3 col3 center" id="33" onclick="move(id)"></div>
         </div>
       </div>
   </body>
